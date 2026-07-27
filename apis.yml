@@ -1,20 +1,68 @@
 aid: gronda
 name: Gronda
-description: Gronda is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Gronda is a professional community and learning platform for chefs and
+  hospitality professionals, offering 70+ masterclasses and 20,000+ exclusive restaurant
+  recipes from leading chefs, a chef directory and creator program, and team and culinary-school
+  plans. Members share culinary creations, follow world-class chefs, and access PRO
+  subscription content through the Gronda web and mobile apps. Backed by Speedinvest,
+  Gronda was surfaced as a portfolio-company lead and profiled through the API Evangelist
+  enrichment pipeline; it is a consumer/community product that does not currently
+  publish a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/gronda/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/62f1652df4eb674e370a0f6f/69948a099598c6ac555ea2e3_Figma%20App%20Icon%404x%201.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  last-run: '2026-07-19'
+  outcome: no-public-api
+  note: Consumer culinary-education/community product; no developer portal, OpenAPI,
+    MCP, packages, well-known, security.txt, llms.txt, status page, or company GitHub
+    org found. Identity/link-property pass only.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Hospitality
+- Culinary
+- Food
+- Education
+- Community
+- Recipes
+- Chefs
+- Gastronomy
+- Learning
 apis: []
+common:
+- type: DomainSecurity
+  url: security/gronda-domain-security.yml
+- type: Website
+  url: https://gronda.com
+- type: Support
+  url: https://help.gronda.com
+- type: Pricing
+  url: https://gronda.com/plans
+- type: SignUp
+  url: https://gronda.com/login
+- type: TermsOfService
+  url: https://gronda.com/legal/conditions-user
+- type: PrivacyPolicy
+  url: https://gronda.com/legal/privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
