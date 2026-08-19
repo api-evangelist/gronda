@@ -33,7 +33,7 @@ x-enrichment:
   note: Consumer culinary-education/community product; no developer portal, OpenAPI,
     MCP, packages, well-known, security.txt, llms.txt, status page, or company GitHub
     org found. Identity/link-property pass only.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
