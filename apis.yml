@@ -9,6 +9,17 @@ description: Gronda is a professional community and learning platform for chefs 
   enrichment pipeline; it is a consumer/community product that does not currently
   publish a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/gronda/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
